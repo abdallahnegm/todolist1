@@ -6,8 +6,70 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+*{
+  box-sizing: border-box;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.center{
+  text-align: center;
+}
+.container{
+  width: 60%;
+  margin: 10% auto;
+}
+.listitem{
+  background-color: white;
+  color: #46529d;
+}
+.listitem p{
+  margin: 0;
+  text-align: center;
+  padding: 10px 0;
+}
+.listitem span{
+  display: inline-block;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+  border: 0.3px solid #ccc;
+  color: black;
+  font-weight: bold;
+}
+.listitem .title{
+  background-color: #2ebaee;
+  color: white;
+}
+.listitem .name,
+form input[type=text]{
+  width: 60%;
+}
+.listitem .age,
+form input[type=number]{
+  width: 30%;
+}
+.listitem .action,
+form input[type=submit]{
+  width: 10%;
+}
+.icon{
+  color: red !important;
+  cursor: pointer;
+}
+form input{
+  padding: 10px;
+  background-color: #ebebeb;
+  border: transparent;
+  border: 0.3px solid #ccc;
+}
+input[type=submit]{
+  background-color: #2ebaee;
+  border: 0.3px solid #2ebaee;
+  cursor: pointer;
+}
+i{
+  background-color: white;
+  color: #2ebaee;
 }
